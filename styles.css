@@ -21,10 +21,38 @@
     padding-top: 10px;
 }
 
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
 .map{
     display: block;
     width: 80%;
     height: 700px;
     margin-left: auto;
     margin-right: auto;
+}
+
+#cleanliness{
+    opacity: 100%;
+}
+
+.stars{
+    opacity: 50%;
+    cursor: pointer;
+    padding: 2px;
+}
+
+.stars:hover{
+    opacity: 100%
+}
+
+.stars a:hover {
+    opacity: 100%;
+}
+
+.stars a:hover ~ a {
+    opacity: 50%
 }
