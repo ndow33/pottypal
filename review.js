@@ -8,6 +8,5 @@ stars.forEach((star, clickedIdx) => {
             }
         });
         console.log("star of index " + clickedIdx + " was clicked");
-        //post star ranking to backend
     });
 });
